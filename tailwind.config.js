@@ -7,7 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      
+      colors: {
+        lapBlue: '#007CC2',
+        lapDarkBlue: '#29166F',
+        lapDarkerBlue: '#080D1C',
+      },
     },
   },
   plugins: [],
