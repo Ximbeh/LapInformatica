@@ -1,17 +1,21 @@
+import Link from 'next/link';
 import React from 'react';
 
-const FullButton = ({ text }) => {
+const FullButton = ({ text, onClick }) => {
   return (
-    <button className="w-full bg-lapBlue text-gray-100 rounded-[5px] py-2 px-4">
+    <button 
+      onClick={onClick}
+      className="w-full bg-lapBlue text-gray-100 rounded-[5px] py-2 px-4">
       {text}
     </button>
   );
 };
 
-const HalfButton = ({ text, darker }) => {
+const HalfButton = ({ text, darker, onClick }) => {
   return (
     <button
-      className={`w-[calc(50%-8px)] text-white rounded-[5px] py-2 px-4 ${darker ? 'bg-lapDarkBlue' : 'bg-lapBlue'}`}
+      onClick={onClick}
+      className={`w-[calc(50%-8px)] text-white rounded-[5px] py-3 ${darker ? 'bg-lapDarkBlue' : 'bg-lapBlue'}`}
     >
       {text}
     </button>
@@ -26,16 +30,17 @@ const ButtonContainer = ({ children }) => {
     );
   };
 
-  const IconButton = ({ icon, text, small = false }) => {
+  const IconButton = ({ icon, text, small = false, link }) => {
     return (
       <div className="flex flex-col items-center">
-        <button
+        <Link
+          href={link}
           className={`border-lapBlue border-2 rounded-[5px] text-white flex items-center justify-center ${small ? 'p-2' : 'p-6'}`}
         >
           {icon}
-        </button>
+        </Link>
         {!small && (
-          <span className="text-lapBlue text-center mt-1 text-lg">
+          <span className="text-lapBlue text-center mt-1 text-md leading-5">
             {text}
           </span>
         )}
