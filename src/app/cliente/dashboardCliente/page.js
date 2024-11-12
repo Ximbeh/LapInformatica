@@ -18,12 +18,12 @@ export default function DashboardCliente() {
                 <IconButton
                     icon={<Image src="/icons/andamento.svg" alt="Box Plus" width={70} height={70} />}
                     text="Pedidos em andamento"
-                    link="/"
+                    link="/cliente/pedidoAndamento"
                 />
                 <IconButton
                     icon={<Image src="/icons/Box-Check.svg" alt="Box Plus" width={70} height={70} />}
                     text="Históricos de pedidos"
-                    link="/"
+                    link="/cliente/historicoPedidos"
                 />
                 <IconButton
                     icon={<Image src="/icons/user.svg" alt="Box Plus" width={70} height={70} />}

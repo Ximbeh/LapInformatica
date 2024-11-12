@@ -1,0 +1,202 @@
+[
+    {
+        "id": 2,
+        "conteudo": "Caixa com roupas",
+        "status": "Finalizado",
+        "data": "04/11/2024 - 12:15",
+        "origem": {
+            "cep": "1111-111",
+            "logradouro": "Avenida Principal",
+            "numero": "100",
+            "complemento": "Apto 301"
+        },
+        "destino": {
+            "cep": "2222-222",
+            "logradouro": "Rua Secundária",
+            "numero": "50",
+            "complemento": "Loja"
+        },
+        "peso": "5.2kg",
+        "preco": "40,00"
+    },
+    {
+        "id": 3,
+        "conteudo": "Documentos empresariais",
+        "status": "A caminho do destino",
+        "data": "05/11/2024 - 09:00",
+        "origem": {
+            "cep": "3333-333",
+            "logradouro": "Rua das Flores",
+            "numero": "200",
+            "complemento": "Sala 101"
+        },
+        "destino": {
+            "cep": "4444-444",
+            "logradouro": "Avenida Brasil",
+            "numero": "3000",
+            "complemento": "Edifício A"
+        },
+        "peso": "0.5kg",
+        "preco": "15,00"
+    },
+    {
+        "id": 4,
+        "conteudo": "Caixa com eletrônicos",
+        "status": "Esperando ser aceito",
+        "data": "05/11/2024 - 15:20",
+        "origem": {
+            "cep": "5555-555",
+            "logradouro": "Rua das Palmeiras",
+            "numero": "89",
+            "complemento": "Casa"
+        },
+        "destino": {
+            "cep": "6666-666",
+            "logradouro": "Rua da Harmonia",
+            "numero": "27",
+            "complemento": "Loja 5"
+        },
+        "peso": "2.3kg",
+        "preco": "50,00"
+    },
+    {
+        "id": 5,
+        "conteudo": "Livros e materiais de escritório",
+        "status": "Em espera para retirada no destino",
+        "data": "03/11/2024 - 18:45",
+        "origem": {
+            "cep": "7777-777",
+            "logradouro": "Rua dos Estudantes",
+            "numero": "456",
+            "complemento": "Prédio"
+        },
+        "destino": {
+            "cep": "8888-888",
+            "logradouro": "Avenida do Saber",
+            "numero": "789",
+            "complemento": "Loja 2"
+        },
+        "peso": "7.0kg",
+        "preco": "35,00"
+    },
+    {
+        "id": 6,
+        "conteudo": "Peças de carro",
+        "status": "Finalizado",
+        "data": "02/11/2024 - 16:30",
+        "origem": {
+            "cep": "9999-999",
+            "logradouro": "Rua do Comércio",
+            "numero": "500",
+            "complemento": "Galpão 1"
+        },
+        "destino": {
+            "cep": "1010-101",
+            "logradouro": "Avenida da Indústria",
+            "numero": "1200",
+            "complemento": "Loja 3"
+        },
+        "peso": "15.0kg",
+        "preco": "60,00"
+    },
+    {
+        "id": 7,
+        "conteudo": "Material escolar",
+        "status": "Esperando ser aceito",
+        "data": "05/11/2024 - 11:45",
+        "origem": {
+            "cep": "1212-121",
+            "logradouro": "Rua das Crianças",
+            "numero": "77",
+            "complemento": "Apto 2"
+        },
+        "destino": {
+            "cep": "1313-131",
+            "logradouro": "Avenida Estudantil",
+            "numero": "85",
+            "complemento": "Loja 1"
+        },
+        "peso": "3.2kg",
+        "preco": "20,00"
+    },
+    {
+        "id": 8,
+        "conteudo": "Caixa com brinquedos",
+        "status": "A caminho do destino",
+        "data": "05/11/2024 - 14:10",
+        "origem": {
+            "cep": "1414-141",
+            "logradouro": "Rua dos Jovens",
+            "numero": "600",
+            "complemento": "Casa"
+        },
+        "destino": {
+            "cep": "1515-151",
+            "logradouro": "Rua da Felicidade",
+            "numero": "200",
+            "complemento": "Loja 4"
+        },
+        "peso": "8.5kg",
+        "preco": "45,00"
+    },
+    {
+        "id": 9,
+        "conteudo": "Alimentos perecíveis",
+        "status": "Em espera para retirada no destino",
+        "data": "04/11/2024 - 17:50",
+        "origem": {
+            "cep": "1616-161",
+            "logradouro": "Avenida Central",
+            "numero": "900",
+            "complemento": "Mercado"
+        },
+        "destino": {
+            "cep": "1717-171",
+            "logradouro": "Rua das Hortas",
+            "numero": "50",
+            "complemento": "Casa"
+        },
+        "peso": "12.0kg",
+        "preco": "30,00"
+    },
+    {
+        "id": 10,
+        "conteudo": "Medicamentos",
+        "status": "Finalizado",
+        "data": "01/11/2024 - 10:30",
+        "origem": {
+            "cep": "1818-181",
+            "logradouro": "Rua da Saúde",
+            "numero": "250",
+            "complemento": "Farmácia"
+        },
+        "destino": {
+            "cep": "1919-191",
+            "logradouro": "Rua da Esperança",
+            "numero": "70",
+            "complemento": "Apto 10"
+        },
+        "peso": "1.2kg",
+        "preco": "18,00"
+    },
+    {
+        "id": 11,
+        "conteudo": "Eletrônicos e acessórios",
+        "status": "A caminho do destino",
+        "data": "05/11/2024 - 13:25",
+        "origem": {
+            "cep": "2020-202",
+            "logradouro": "Rua do Comércio",
+            "numero": "100",
+            "complemento": "Shopping"
+        },
+        "destino": {
+            "cep": "2121-212",
+            "logradouro": "Avenida Central",
+            "numero": "400",
+            "complemento": "Sala 5"
+        },
+        "peso": "6.3kg",
+        "preco": "55,00"
+    }
+]
