@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <body
-        className={`${inter.variable} antialiased font-[family-name:var(--inter)] p-8`}
+        className={`${inter.variable} antialiased font-[family-name:var(--inter)] font-medium p-8`}
       >
         {children}
       </body>

@@ -12,7 +12,7 @@ export default function HistoricoPedido(){
             <div className="w-full mt-10">
                 <h2 className="text-lapBlue text-2xl text-center mb-6">Historico de pedidos</h2>
                 {pedidosHistorico.map((pedido) => (
-                    <Pedido key={pedido.id} pedido={pedido} rota={"pedido"} />
+                    <Pedido key={pedido.id} pedido={pedido} rota={"pedidoHistorico"} />
                 ))}
             </div>
         </div>

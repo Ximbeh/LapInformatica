@@ -8,9 +8,11 @@ export default function Home() {
   return (
     <div>
       <Logo />
-      <Link href='/cliente/dashboardCliente'>Clique aqui para ir para a tela de login</Link>
+     
 
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 mt-24">
+        <Link href='/cliente/dashboardCliente'>Pagina de cliente</Link>
+        <Link href='/entregador/dashboardEntregador'>Pagina do entregador</Link>
         <Input label="Email"/>
         <FullButton text="Botão"></FullButton>
         <ButtonContainer>

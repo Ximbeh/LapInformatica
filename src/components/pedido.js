@@ -2,7 +2,7 @@ import Image from "next/image";
 import { IconButton } from "./buttons";
 import Link from "next/link";
 
-export default function Pedido({ pedido }) {
+export default function Pedido({ pedido, rota }) {
     return (
         <div className="flex w-full justify-between items-center border-b-2 border-gray-400 py-4">
             <div>
@@ -12,7 +12,7 @@ export default function Pedido({ pedido }) {
             </div>
                 <IconButton
                     icon={<Image src="/icons/eye.svg" alt="Olhar" width={24} height={24} />}
-                    small={true} link={`pedido/${pedido.id}`}
+                    small={true} link={`${rota}/${pedido.id}`}
                 />
         </div>
     );
